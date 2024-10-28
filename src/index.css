@@ -22,7 +22,7 @@ h1 {
 }
 
 .navs {
-    @apply flex justify-center items-center mb-20 hover:text-red-800 font-bold;
+    @apply flex justify-center items-center mb-20 hover:text-red-800 font-bold
 }
 
 .module-container {
@@ -34,7 +34,7 @@ h1 {
 }
 
 .module-container .img {
-   height: 8rem;
+    height: 8rem;
     width: auto;
 }
 
@@ -44,7 +44,7 @@ h1 {
     line-height: 24px;
     font-weight: 400;
     font-style: normal;
-    @apply ml-3;
+    @apply ml-3
 }
 
 .title-price {
