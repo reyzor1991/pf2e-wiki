@@ -63,17 +63,10 @@ export const data = [
         "price": "free"
     },
     {
-        id: 10,
-        title: 'PF2e Weapon Trait Options',
-        img: '/pf2e-wiki/img/sword.svg',
-        "description": "Module add possibility to add missed modificators to attack/damage roll",
-        "price": "free"
-    },
-    {
         id: 11,
         title: 'PF2e Weapon Trait Options',
         img: '/pf2e-wiki/img/trait.svg',
-        "description": "Module add possibility to add missed modificators to attack/damage roll",
+        "description": "Module add possibility to add missed modifications to attack/damage roll",
         "price": "free"
     },
     {
@@ -116,6 +109,118 @@ export const data = [
         title: 'PF2e Automations (Patreon)',
         img: '/pf2e-wiki/img/gear.svg',
         "description": "Module for automate action/feats/spells",
+        "price": "patreon"
+    },
+    {
+        id: 18,
+        title: 'PF2e Recall Knowledge',
+        img: '/pf2e-wiki/img/scroll.svg',
+        "description": "Module for handling Recall Knowledge logic",
+        "price": "patreon"
+    },
+    {
+        id: 19,
+        title: 'Pf2e Terrains',
+        img: '/pf2e-wiki/img/mountain.svg',
+        "description": "Module adds new type of regions",
+        "price": "patreon"
+    },
+    {
+        id: 20,
+        title: 'Pf2e Target Helper',
+        img: '/pf2e-wiki/img/target.svg',
+        "description": "Module for improving work saving throws/applying damage",
+        "price": "patreon"
+    },
+    {
+        id: 21,
+        title: 'PF2e Special',
+        img: '/pf2e-wiki/img/gear.svg',
+        "description": "",
+        "price": "patreon"
+    },
+    {
+        id: 22,
+        title: 'PF2e NPC Improvements',
+        img: '/pf2e-wiki/img/group.svg',
+        "description": "Module add NPC Sheet improvement",
+        "price": "patreon"
+    },
+    {
+        id: 23,
+        title: 'PF2e Monster Designer',
+        img: '/pf2e-wiki/img/monster.svg',
+        "description": "Module improves creating of new monsters and transforming exists",
+        "price": "patreon"
+    },
+    {
+        id: 24,
+        title: 'PF2e Measure Helper',
+        img: '/pf2e-wiki/img/mountain.svg',
+        "description": "Module for working with templates",
+        "price": "patreon"
+    },
+    {
+        id: 25,
+        title: 'PF2e Item Processor',
+        img: '/pf2e-wiki/img/gear.svg',
+        "description": "Module handles work with armors/runes/materials",
+        "price": "patreon"
+    },
+    {
+        id: 26,
+        title: 'PF2e Item Processor',
+        img: '/pf2e-wiki/img/armor.svg',
+        "description": "Module handles work with armors/runes/materials",
+        "price": "patreon"
+    },
+    {
+        id: 27,
+        title: 'PF2e Condition Converter',
+        img: '/pf2e-wiki/img/gear.svg',
+        "description": "Module for converting condition to effects",
+        "price": "patreon"
+    },
+    {
+        id: 28,
+        title: 'PF2e Campaign Statistics',
+        img: '/pf2e-wiki/img/scroll.svg',
+        "description": "Module for saving encounter/base statistics",
+        "price": "patreon"
+    },
+    {
+        id: 29,
+        title: 'PF2e Additional automations',
+        img: '/pf2e-wiki/img/gear.svg',
+        "description": "Module adds specific automations like blind roll/flat checks",
+        "price": "patreon"
+    },
+    {
+        id: 30,
+        title: 'PF2e Additional automations',
+        img: '/pf2e-wiki/img/gear.svg',
+        "description": "Module adds specific automations like blind roll/flat checks",
+        "price": "patreon"
+    },
+    {
+        id: 31,
+        title: 'PF2e Charactermancer',
+        img: '/pf2e-wiki/img/group.svg',
+        "description": "Module for comfortable level up of character",
+        "price": "patreon"
+    },
+    {
+        id: 32,
+        title: 'Novel messages',
+        img: '/pf2e-wiki/img/scroll.svg',
+        "description": "Show messages as popups",
+        "price": "patreon"
+    },
+    {
+        id: 99,
+        title: 'Pseudo Afflictions',
+        img: '/pf2e-wiki/img/skull.svg',
+        "description": "Module for improving work Kingmaker module afflictions.",
         "price": "patreon"
     }
 ]
