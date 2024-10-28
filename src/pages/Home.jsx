@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Header from '../components/Header';
-import { data } from '../data'
+import { data } from '../../data.js'
 import Menus from './Menus'
 import { CirclesWithBar } from 'react-loader-spinner'
 
@@ -15,7 +15,7 @@ const Home = () => {
 
     return (
         <div>
-            <Header title='Menu' />
+            <Header title='All modules' />
             {loading && (
                 <div className='flex items-center justify-center'>
                     <CirclesWithBar
