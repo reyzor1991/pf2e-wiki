@@ -220,7 +220,7 @@ export const data = [
         id: 99,
         title: 'Pseudo Afflictions',
         img: '/pf2e-wiki/img/skull.svg',
-        "description": "Module for improving work Kingmaker module afflictions.",
+        "description": "Module for improving work with afflictions.",
         "price": "patreon"
     }
 ]
