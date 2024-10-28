@@ -1,65 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
 }
 
 body {
-    font-family: 'Nunito', sans-serif;
-    background-color: #f0f6fc;
-
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
 }
 
 h1 {
-    font-family: 'Nunito', cursive;
-    @apply text-3xl font-bold text-center my-6 text-red-950;
+  font-size: 3.2em;
+  line-height: 1.1;
 }
 
-.navs {
-    @apply flex justify-center items-center mb-20 hover:text-red-800 font-bold
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
 }
 
-.module-container {
-    @apply grid gap-10 grid-cols-1 md:grid-cols-3;
-}
-
-.img {
-    @apply h-44 w-full object-cover rounded-3xl border-2 border-green-800;
-}
-
-.module-container .img {
-   height: 8rem;
-    width: auto;
-}
-
-.para-menu {
-    color: #617d98;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-    font-style: normal;
-    @apply ml-3
-}
-
-.title-price {
-    @apply ml-3 flex justify-between text-green-800 font-bold;
-    .price {
-        @apply text-blue-800;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .module-container {
-        @apply mx-3 ;
-    }
-
-    .navs {
-        font-size: 12px;
-    }
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
 }
