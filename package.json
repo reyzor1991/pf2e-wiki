@@ -2,6 +2,7 @@
   "name": "pf2e-wiki",
   "version": "0.1.0",
   "type": "module",
+  "homepage": "https://reyzor1991.github.io/pf2e-wiki",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
