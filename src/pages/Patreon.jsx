@@ -7,7 +7,7 @@ const Patreon = () => {
     const [modules] = useState(data)
     return (
         <div>
-            <Header title='Free modules'/>
+            <Header title='Patreon modules'/>
             <Menus modules={modules.filter((module) => module.price === 'patreon')}/>
         </div>
     );
