@@ -4,7 +4,23 @@ export const data = [
         title: 'PF2e Automations',
         img: '/pf2e-wiki/img/gear.svg',
         "description": "Module for automate action/feats/spells",
-        "price": "free"
+        "price": "free",
+        html: "<strong>Module for automate action/feats/spells.</strong><hr/>" +
+            "<i>Module has 250+ automated rules.</i><hr/>" +
+            "<p>Apply effect/condition automatically, when fail saving throw/crit specialization/cast spell.</p>" +
+            "<p>When module was installed, need to press Sync Rules button to apply new rules to system.</p>" +
+            "<div class='flex'><img src='/pf2e-wiki/module/sync-message.png' alt='Sync Message' width='400'><img src='/pf2e-wiki/module/sync-btn.png' alt='Sync Btn' width='400'></div>" +
+            "<p>By default, all rules and handlers are off</p>" +
+            "<div class='flex'><img src='/pf2e-wiki/module/rules-empty.png' alt='rules empty' width='500'><img src='/pf2e-wiki/module/handlers.png' alt='rules empty' width='500'></div>" +
+            "<p>To turn on rules, you could use Apply Suggestion/Activate All/Activate Filtered and after it press Save</p>" +
+            "<p>Handlers could be activated only manually for now</p>" +
+            "<p><pre><code>Hooks.on('ready', function () {\n" +
+            "    if (game?.pf2eautomations?.registerMessageCreateHandler) {\n" +
+            "        game.pf2eautomations.registerMessageCreateHandler('bane-test', async (message) => {\n" +
+            "            console.log('handling banes spell');\n" +
+            "        })\n" +
+            "    }\n" +
+            "})</code></pre></p>"
     },
     {
         id: 2,
@@ -109,7 +125,23 @@ export const data = [
         title: 'PF2e Automations (Patreon)',
         img: '/pf2e-wiki/img/gear.svg',
         "description": "Module for automate action/feats/spells",
-        "price": "patreon"
+        "price": "patreon",
+        html: "<strong>Module for automate action/feats/spells.</strong><hr/>" +
+            "<i>Module has 900+ automated rules.</i><hr/>" +
+            "<p>Apply effect/condition automatically, when fail saving throw/crit specialization/cast spell.</p>" +
+            "<p>When module was installed, need to press Sync Rules button to apply new rules to system.</p>" +
+            "<div class='flex'><img src='/pf2e-wiki/module/sync-message.png' alt='Sync Message' width='400'><img src='/pf2e-wiki/module/sync-btn.png' alt='Sync Btn' width='400'></div>" +
+            "<p>By default, all rules and handlers are off</p>" +
+            "<div class='flex'><img src='/pf2e-wiki/module/rules-empty.png' alt='rules empty' width='500'><img src='/pf2e-wiki/module/handlers.png' alt='rules empty' width='500'></div>" +
+            "<p>To turn on rules, you could use Apply Suggestion/Activate All/Activate Filtered and after it press Save</p>" +
+            "<p>Handlers could be activated only manually for now</p>" +
+            "<p><pre><code>Hooks.on('ready', function () {\n" +
+            "    if (game?.pf2eautomations?.registerMessageCreateHandler) {\n" +
+            "        game.pf2eautomations.registerMessageCreateHandler('bane-test', async (message) => {\n" +
+            "            console.log('handling banes spell');\n" +
+            "        })\n" +
+            "    }\n" +
+            "})</code></pre></p>"
     },
     {
         id: 18,

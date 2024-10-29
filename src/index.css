@@ -63,3 +63,13 @@ h1 {
         font-size: 12px;
     }
 }
+
+pre {
+    background-color: darkgrey;
+    padding: 16px;
+    font-size: 85%;
+    border-radius: 25px;
+}
+
+code {
+}
