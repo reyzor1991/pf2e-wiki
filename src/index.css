@@ -73,3 +73,17 @@ pre {
 
 code {
 }
+
+.scale-03 {
+    width: 30%;
+    height: 30%;
+}
+
+.scale-02 {
+    width: 20%;
+    height: 20%;
+}
+
+.c {
+    text-align: center;
+}

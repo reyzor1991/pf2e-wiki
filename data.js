@@ -28,7 +28,9 @@ export const data = [
         img: '/pf2e-wiki/img/hand.svg',
         "description": "Module to notify about hands management",
         "price": "free",
-        html: ""
+        html: "<p>Notify that player uses more than 2 hands</p>" +
+            "<p>Notify that player can't cast spell because need free hand</p>" +
+            "<p>Also notify when pc tries to use action when under specific conditions</p>"
     },
     {
         id: 3,
@@ -36,7 +38,88 @@ export const data = [
         img: '/pf2e-wiki/img/group.svg',
         "description": "Module for improving work with PF2e Party Sheet",
         "price": "free",
-        html: ""
+        html: "<p class='c'><strong>Module contains few feature to improve Party Sheet</strong></p>" +
+            "<br/>" +
+            "<p><strong>Roll template</strong></p>" +
+            "<p>Create roll template when click on skill secret if Meta/Ctrl) (copy check if Shift)</p>" +
+            "<video width='320' height='240' controls><source src='https://github.com/reyzor1991/pf2e-wiki/assets/6688366/58bc0bdc-a33a-4951-9e10-e79e0115b92f' type='video/mp4'></video>" +
+            "<br/>" +
+            "<p><strong>Button for create encounter for party</strong></p>" +
+            "<br/>" +
+            "<p><strong>Buttons to call Travel Duration Calculators</strong></p>" +
+            "<br/>" +
+            "<p><strong>Health Setting</strong></p>" +
+            "<p>PCs see heath bar as status instead of numbers</p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/party/health-setting.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/party/party-sheet-health.png' alt=''></div></p>" +
+            "<br/>" +
+            "<p><strong>Party Leader</strong></p>" +
+            "<p>Show leader of party, leader of party is first in list</p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/party/leader-setting.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/party/party-leader.png' alt=''></div></p>" +
+            "<br/>" +
+            "<p><strong>Hide Wealth from PCs</strong></p>" +
+            "<br/>" +
+            "<p><strong>Party Sharing</strong></p>" +
+            "<video width='320' height='240' controls><source src='https://github.com/reyzor1991/pf2e-wiki/assets/6688366/c89e9243-b928-4a74-ac65-ac631174817d' type='video/mp4'></video>" +
+            "<br/>" +
+            "<p><strong>Subsytems</strong></p>" +
+            "<p>Enable subsystem</p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/party/subsystem-setting.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/party/sub1.png' alt=''><img class='scale-02' src='/pf2e-wiki/module/party/sub2.png' alt=''></div></p>" +
+            "<video width='320' height='240' controls><source src='https://github.com/reyzor1991/pf2e-wiki/assets/6688366/45dc1fcc-3d75-4b54-be67-9bcf1ad1c038' type='video/mp4'></video>" +
+            "<br/>" +
+            "<p><strong>Inline Influence checks\n</strong></p>" +
+            "<p><pre><code>@Check[type:diplomacy|dc:33|traits:action:influence,npc-name:NPC 1]{Make impression on an NPC 1}</code></pre></p>" +
+            "<p><pre><code>@Check[type:diplomacy|dc:15|traits:action:chases,npc-name:Sajan]{Sajan scares crowd}</code></pre></p>" +
+            "<p><i>action:influence</i> - necessary to trigger skill check</p>" +
+            "<p><i>npc-name:NPC 1</i> - necessary to write to subsystem npc name</p>" +
+            "<p><pre><code>Points of result\n" +
+            "     criticalFailure: -1\n" +
+            "     failure: 0\n" +
+            "     success: 1\n" +
+            "     criticalSuccess: 2" +
+            "</code></pre></p>" +
+            "<br/>" +
+            "<p><strong>Achivments</strong></p>" +
+            "<p>Create achivments for PCs</p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/party/ach-setting.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/party/ach.png' alt=''></div></p>" +
+            "<br/>" +
+            "<p><strong>Show encounter</strong></p>" +
+            "<p>Show base info about PCs in party</p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/party/enc-setting.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/party/enc.png' alt=''></div></p>" +
+            "<br/>" +
+            "<p><strong>Afflictions</strong></p>" +
+            "<p>Show afflictions(effects with affliction in name) applied to PCs</p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/party/aff-setting.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/party/aff.png' alt=''></div></p>" +
+            "<br/>" +
+            "<p><strong>Show effects</strong></p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/party/eff-setting.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/party/effects.png' alt=''></div></p>" +
+            "<br/>" +
+            "<p><strong>Show focus points</strong></p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/party/fp.png' alt=''></div></p>" +
+            "<br/>" +
+            "<p><strong>Show spell info</strong></p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/party/spellinfo.png' alt=''></div></p>" +
+            "<br>" +
+            "<p><strong>Print inventory</strong></p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/party/print-set.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/party/print.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/party/print-example.png' alt=''></div></p>" +
+            "<br>" +
+            "<p><strong>Hide general info</strong></p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/party/hide-set.png' alt=''></div></p>" +
+            "<br>" +
+            "<p><strong>Max Encumbrance</strong></p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/party/enc-setting.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/party/encu.png' alt=''></div></p>" +
+            "<br>" +
+            "<p><strong>Store last skills</strong></p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/party/skills.png' alt=''></div></p>" +
+            "<br>" +
+            "<p><strong>Party points</strong></p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/party/points-set.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/party/points.png' alt=''></div></p>" +
+            "<br>" +
+            "<p><strong>Damage All</strong></p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/party/damage.png' alt=''></div></p>" +
+            "<br>" +
+            "<p></p>" +
+            "<p></p>" +
+            "<p></p>"
     },
     {
         id: 4,
@@ -44,7 +127,7 @@ export const data = [
         img: '/pf2e-wiki/img/crown.svg',
         "description": "Module for improving work Kingmaker module",
         "price": "free",
-        html: ""
+        html: "<p></p>"
     },
     {
         id: 5,
@@ -52,7 +135,7 @@ export const data = [
         img: '/pf2e-wiki/img/gear.svg',
         "description": "Module adds macros for improving action/feats",
         "price": "free",
-        html: ""
+        html: "<p></p>"
     },
     {
         id: 6,
@@ -60,7 +143,7 @@ export const data = [
         img: '/pf2e-wiki/img/group.svg',
         "description": "Module for working with troops. Transformation/control",
         "price": "free",
-        html: ""
+        html: "<p></p>"
     },
     {
         id: 7,
@@ -68,7 +151,7 @@ export const data = [
         img: '/pf2e-wiki/img/pentagram.svg',
         "description": "Module for Summon/Dismiss/Sustain minions",
         "price": "free",
-        html: ""
+        html: "<p></p>"
     },
     {
         id: 8,
@@ -76,7 +159,7 @@ export const data = [
         img: '/pf2e-wiki/img/gear.svg',
         "description": "Small module to notify that actor can use reaction",
         "price": "free",
-        html: ""
+        html: "<p></p>"
     },
     {
         id: 9,
@@ -84,7 +167,7 @@ export const data = [
         img: '/pf2e-wiki/img/skull.svg',
         "description": "Module for handling dying conditions",
         "price": "free",
-        html: ""
+        html: "<p></p>"
     },
     {
         id: 11,
@@ -92,7 +175,7 @@ export const data = [
         img: '/pf2e-wiki/img/trait.svg',
         "description": "Module add possibility to add missed modifications to attack/damage roll",
         "price": "free",
-        html: ""
+        html: "<p></p>"
     },
     {
         id: 12,
@@ -100,7 +183,7 @@ export const data = [
         img: '/pf2e-wiki/img/group.svg',
         "description": "Module provide feature for handling Devian Feats",
         "price": "free",
-        html: ""
+        html: "<p></p>"
     },
     {
         id: 13,
@@ -108,7 +191,7 @@ export const data = [
         img: '/pf2e-wiki/img/message.svg',
         "description": "Module for editing messages in chat",
         "price": "free",
-        html: ""
+        html: "<p></p>"
     },
     {
         id: 14,
@@ -116,7 +199,7 @@ export const data = [
         img: '/pf2e-wiki/img/2d6.svg',
         "description": "Module for homebrew rule, apply effect when roll 1/20 on initiative",
         "price": "free",
-        html: ""
+        html: "<p></p>"
     },
     {
         id: 15,
@@ -124,7 +207,7 @@ export const data = [
         img: '/pf2e-wiki/img/pentagram.svg',
         "description": "Module for improving work with Eidolons",
         "price": "free",
-        html: ""
+        html: "<p></p>"
     },
     {
         id: 16,
@@ -132,7 +215,7 @@ export const data = [
         img: '/pf2e-wiki/img/flip.svg',
         "description": "Module to flip token image",
         "price": "free",
-        html: ""
+        html: "<p></p>"
     },
     {
         id: 17,
@@ -148,6 +231,7 @@ export const data = [
             "<p>By default, all rules and handlers are off</p>" +
             "<div class='flex'><img src='/pf2e-wiki/module/rules-empty.png' alt='rules empty' width='500'><img src='/pf2e-wiki/module/handlers.png' alt='rules empty' width='500'></div>" +
             "<p>To turn on rules, you could use Apply Suggestion/Activate All/Activate Filtered and after it press Save</p>" +
+            "<p><strong>Recomendation</strong> Click Activate All Rules after it click Apply Suggestions (Deactivate only) and save rules</p>" +
             "<p>Handlers could be activated only manually for now</p>" +
             "<p><pre><code>Hooks.on('ready', function () {\n" +
             "    if (game?.pf2eautomations?.registerMessageCreateHandler) {\n" +
@@ -163,7 +247,7 @@ export const data = [
         img: '/pf2e-wiki/img/scroll.svg',
         "description": "Module for handling Recall Knowledge logic",
         "price": "patreon",
-        html: ""
+        html: "<p></p>"
     },
     {
         id: 19,
@@ -171,7 +255,7 @@ export const data = [
         img: '/pf2e-wiki/img/mountain.svg',
         "description": "Module adds new type of regions",
         "price": "patreon",
-        html: ""
+        html: "<p></p>"
     },
     {
         id: 20,
@@ -179,7 +263,7 @@ export const data = [
         img: '/pf2e-wiki/img/target.svg',
         "description": "Module for improving work saving throws/applying damage",
         "price": "patreon",
-        html: ""
+        html: "<p></p>"
     },
     {
         id: 21,
@@ -187,7 +271,7 @@ export const data = [
         img: '/pf2e-wiki/img/gear.svg',
         "description": "",
         "price": "patreon",
-        html: ""
+        html: "<p></p>"
     },
     {
         id: 22,
@@ -195,7 +279,7 @@ export const data = [
         img: '/pf2e-wiki/img/group.svg',
         "description": "Module add NPC Sheet improvement",
         "price": "patreon",
-        html: ""
+        html: "<p></p>"
     },
     {
         id: 23,
@@ -203,7 +287,7 @@ export const data = [
         img: '/pf2e-wiki/img/monster.svg',
         "description": "Module improves creating of new monsters and transforming exists",
         "price": "patreon",
-        html: ""
+        html: "<p></p>"
     },
     {
         id: 24,
@@ -211,7 +295,7 @@ export const data = [
         img: '/pf2e-wiki/img/mountain.svg',
         "description": "Module for working with templates",
         "price": "patreon",
-        html: ""
+        html: "<p></p>"
     },
     {
         id: 25,
@@ -219,7 +303,7 @@ export const data = [
         img: '/pf2e-wiki/img/gear.svg',
         "description": "Module handles work with armors/runes/materials",
         "price": "patreon",
-        html: ""
+        html: "<p></p>"
     },
     {
         id: 26,
@@ -227,7 +311,7 @@ export const data = [
         img: '/pf2e-wiki/img/armor.svg',
         "description": "Module handles work with armors/runes/materials",
         "price": "patreon",
-        html: ""
+        html: "<p></p>"
     },
     {
         id: 27,
@@ -235,7 +319,7 @@ export const data = [
         img: '/pf2e-wiki/img/gear.svg',
         "description": "Module for converting condition to effects",
         "price": "patreon",
-        html: ""
+        html: "<p></p>"
     },
     {
         id: 28,
@@ -243,7 +327,7 @@ export const data = [
         img: '/pf2e-wiki/img/scroll.svg',
         "description": "Module for saving encounter/base statistics",
         "price": "patreon",
-        html: ""
+        html: "<p></p>"
     },
     {
         id: 29,
@@ -251,7 +335,7 @@ export const data = [
         img: '/pf2e-wiki/img/gear.svg',
         "description": "Module adds specific automations like blind roll/flat checks",
         "price": "patreon",
-        html: ""
+        html: "<p></p>"
     },
     {
         id: 30,
@@ -259,7 +343,7 @@ export const data = [
         img: '/pf2e-wiki/img/gear.svg',
         "description": "Module adds specific automations like blind roll/flat checks",
         "price": "patreon",
-        html: ""
+        html: "<p></p>"
     },
     {
         id: 31,
@@ -267,7 +351,7 @@ export const data = [
         img: '/pf2e-wiki/img/group.svg',
         "description": "Module for comfortable level up of character",
         "price": "patreon",
-        html: ""
+        html: "<p></p>"
     },
     {
         id: 32,
@@ -275,7 +359,7 @@ export const data = [
         img: '/pf2e-wiki/img/scroll.svg',
         "description": "Show messages as popups",
         "price": "patreon",
-        html: ""
+        html: "<p></p>"
     },
     {
         id: 33,
@@ -283,7 +367,7 @@ export const data = [
         img: '/pf2e-wiki/img/group.svg',
         "description": "Handling Animist class",
         "price": "free",
-        html: ""
+        html: "<p></p>"
     },
     {
         id: 99,
@@ -291,6 +375,6 @@ export const data = [
         img: '/pf2e-wiki/img/skull.svg',
         "description": "Module for improving work with afflictions.",
         "price": "patreon",
-        html: ""
+        html: "<p></p>"
     }
 ]
