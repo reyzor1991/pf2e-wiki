@@ -180,7 +180,25 @@ export const data = [
         img: '/pf2e-wiki/img/pentagram.svg',
         "description": "Module for Summon/Dismiss/Sustain minions",
         "price": "free",
-        html: "<p></p>"
+        html: "<p class='c'><strong>Module notify about sustain summoned creature</strong></p>" +
+            "<br/>" +
+            "<p><strong>Settings</strong></p>" +
+            "<p>Set available sources for summoning</p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/summon/sum.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/summon/source.png' alt=''></div></p>" +
+            "<br/>" +
+            "<p><strong>Example of summoning</strong></p>" +
+            "<video width='320' height='240' controls><source src='https://github.com/user-attachments/assets/1f2747c8-d32d-4b76-99f9-447951352e7d' type='video/mp4'></video>" +
+            "<br/>" +
+            "<p><strong>Mirror's Reflection</strong></p>" +
+            "<video width='320' height='240' controls><source src='https://github.com/user-attachments/assets/829d1f11-aac0-4150-8d59-a5f0da910b30' type='video/mp4'></video>" +
+            "<br/>" +
+            "<p><strong>Sustain</strong></p>" +
+            "<video width='320' height='240' controls><source src='https://github.com/reyzor1991/pf2e-wiki/assets/6688366/801ebb3f-418e-479b-9bfe-cb561d723f53' type='video/mp4'></video>" +
+            "<br/>" +
+            "<p><strong>Dismiss</strong></p>" +
+            "<video width='320' height='240' controls><source src='https://github.com/reyzor1991/pf2e-wiki/assets/6688366/49a1a31e-44db-4c0b-857b-eab846cc10d1' type='video/mp4'></video>" +
+            "<br/>" +
+            "<br/>"
     },
     {
         id: 8,
