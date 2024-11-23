@@ -117,9 +117,7 @@ export const data = [
             "<p><strong>Damage All</strong></p>" +
             "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/party/damage.png' alt=''></div></p>" +
             "<br>" +
-            "<p></p>" +
-            "<p></p>" +
-            "<p></p>"
+            "<br>"
     },
     {
         id: 4,
@@ -127,7 +125,22 @@ export const data = [
         img: '/pf2e-wiki/img/crown.svg',
         "description": "Module for improving work Kingmaker module",
         "price": "free",
-        html: "<p></p>"
+        html: "<p><strong>Colored Hexes</strong></p>" +
+            "<p>Show colored hexes (toggled btn) :</p>" +
+            "<p>- Reconnoitered as green (default setting)</p>" +
+            "<p>- Mapped as blue (default setting)</p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/king/set.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/king/def.png' alt=''></div></p>" +
+            "<br>" +
+            "<p><strong>Resources</strong></p>" +
+            "<p>GM/PC views. PC see only resources with checkbox “Show Camps and Commodities to Players</p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/king/res.png' alt=''></div></p>" +
+            "<br>" +
+            "<p><strong>Features</strong></p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/king/fea.png' alt=''></div></p>" +
+            "<br>"+
+            "<p><strong>Prepare Campsite</strong></p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/king/camp.png' alt=''></div></p>" +
+            "<br>"
     },
     {
         id: 5,
