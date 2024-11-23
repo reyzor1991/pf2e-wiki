@@ -137,7 +137,7 @@ export const data = [
             "<br>" +
             "<p><strong>Features</strong></p>" +
             "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/king/fea.png' alt=''></div></p>" +
-            "<br>"+
+            "<br>" +
             "<p><strong>Prepare Campsite</strong></p>" +
             "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/king/camp.png' alt=''></div></p>" +
             "<br>"
@@ -148,7 +148,13 @@ export const data = [
         img: '/pf2e-wiki/img/gear.svg',
         "description": "Module adds macros for improving action/feats",
         "price": "free",
-        html: "<p></p>"
+        html: "<p><strong>Aid</strong></p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/macro/aid.png' alt=''></div></p>" +
+            "<br>" +
+            "<p><strong>Favorite weapon</strong></p>" +
+            "<p>Set favorite weapons for macros - default weapon when run macros</p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/macro/fav.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/macro/fav-set.png' alt=''></div></p>" +
+            "<br>"
     },
     {
         id: 6,
@@ -156,7 +162,17 @@ export const data = [
         img: '/pf2e-wiki/img/group.svg',
         "description": "Module for working with troops. Transformation/control",
         "price": "free",
-        html: "<p></p>"
+        html: "<p class='c'><strong>Module handle logic about Create troop/Form up/and handle hp of troop</strong></p>" +
+            "<br>"+
+            "<p><strong>Create Troop</strong></p>"+
+            "<p>Btn or macro</p>"+
+            "<video width='320' height='240' controls><source src='https://github.com/reyzor1991/pf2e-wiki/assets/6688366/34de0215-c41d-40de-b77f-585266afd0a4' type='video/mp4'></video>" +
+            "<br>"+
+            "<p><strong>Form Up</strong></p>"+
+            "<p>Macro</p>"+
+            "<video width='320' height='240' controls><source src='https://github.com/user-attachments/assets/bc677993-a98e-4cb9-adff-a3aea563b0fe' type='video/mp4'></video>" +
+            "<br>"+
+            "<br>"
     },
     {
         id: 7,
