@@ -1234,6 +1234,8 @@ export const data = [
             "        })\n" +
             "    }\n" +
             "})</code></pre></p>"+
+            "<h3>List of features</h3>"+
+            "<br/>"+
             listOfFeatures.map(e=>{
                 return `<details><summary>${e.name}</summary>${e.list.map(ee=>`<p>* ${ee}</p>`).join("")}</details>`
             }).join("")
