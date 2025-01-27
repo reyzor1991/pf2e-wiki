@@ -71,6 +71,10 @@ pre {
     border-radius: 25px;
 }
 
+summary {
+    font-weight: bold;
+}
+
 code {
 }
 
