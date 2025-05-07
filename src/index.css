@@ -16,9 +16,23 @@ body {
 
 }
 
+ol {
+    @apply list-disc;
+}
+
 h1 {
     font-family: 'Nunito', cursive;
     @apply text-3xl font-bold text-center my-6 text-red-950;
+}
+
+h2 {
+    font-family: 'Nunito', cursive;
+    @apply text-xl font-bold text-center my-6 text-red-950;
+}
+
+h3 {
+    font-family: 'Nunito', cursive;
+    @apply text-lg font-bold text-center my-6 text-red-950;
 }
 
 .navs {
@@ -76,6 +90,11 @@ summary {
 }
 
 code {
+}
+
+.scale-06 {
+    width: 60%;
+    height: 60%;
 }
 
 .scale-03 {
