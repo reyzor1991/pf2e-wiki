@@ -1224,10 +1224,9 @@ export const data = [
         img: '/pf2e-wiki/img/gear.svg',
         "description": "Module for automate action/feats/spells",
         "price": "patreon",
-        html: "<strong>Module for automate action/feats/spells.</strong><hr/>" +
-            "<i>Module has 900+ automated rules.</i><hr/>" +
+        html: "<strong>Module for automate action/feats/spells.</strong>" +
+            "<p><i>Module has 900+ automated rules.</i></p>" +
             "<p>Apply effect/condition automatically, when fail saving throw/crit specialization/cast spell.</p>" +
-            "<br/>" +
             "<h3>Manage Rule Settings</h3>" +
             "<p><div class='flex'><img class='scale-06' src='/pf2e-wiki/module/v3/mrs.png' alt=''></div></p>" +
             "<ol>" +

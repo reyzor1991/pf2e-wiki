@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 * {
     padding: 0;
@@ -16,8 +13,8 @@ body {
 
 }
 
-ol {
-    @apply list-disc;
+details {
+    margin-left: 25px;
 }
 
 h1 {
@@ -47,6 +44,10 @@ h3 {
     @apply h-44 w-full object-cover rounded-3xl border-2 border-green-800;
 }
 
+.scale-06, .scale-02, .scale-03 {
+    @apply ml-4;
+}
+
 .module-container .img {
     height: 8rem;
     width: auto;
@@ -63,6 +64,7 @@ h3 {
 
 .title-price {
     @apply ml-3 flex justify-between text-green-800 font-bold;
+
     .price {
         @apply text-blue-800;
     }
@@ -109,4 +111,8 @@ code {
 
 .c {
     text-align: center;
+}
+
+ol {
+    @apply list-disc list-inside ml-2;
 }

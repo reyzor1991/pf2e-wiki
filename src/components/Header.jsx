@@ -21,11 +21,11 @@ const Header = ({title}) => {
     return (
         <>
             <div>
-                <h1 className='h1'>{title}</h1>
+                <h1>{title}</h1>
             </div>
             <ul className='flex justify-center items-center gap-8'>
                 {navs.map((nav, index) => (
-                    <li key={index} className='li'>
+                    <li key={index}>
                         <NavLink
                             to={nav.link}
                             className='navs'>
