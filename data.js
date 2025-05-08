@@ -1226,6 +1226,7 @@ export const data = [
         "price": "patreon",
         html: "<strong>Module for automate action/feats/spells.</strong>" +
             "<p><i>Module has 900+ automated rules.</i></p>" +
+            "<p>Module react on messages in chat. When someone post message with attack/action/damage, as result:</p>" +
             "<p>Apply effect/condition automatically, when fail saving throw/crit specialization/cast spell.</p>" +
             "<h3>Manage Rule Settings</h3>" +
             "<p><div class='flex'><img class='scale-06' src='/pf2e-wiki/module/v3/mrs.png' alt=''></div></p>" +
