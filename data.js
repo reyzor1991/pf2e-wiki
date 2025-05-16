@@ -1193,7 +1193,7 @@ export const data = [
         img: '/pf2e-wiki/img/message.svg',
         "description": "Module for editing messages in chat",
         "price": "free",
-        html: "<p></p>"
+        html: "<p>Module for editing messages in chat</p>"
     },
     {
         id: 14,
@@ -1336,14 +1336,6 @@ export const data = [
         html: "<p></p>"
     },
     {
-        id: 26,
-        title: 'PF2e Item Processor',
-        img: '/pf2e-wiki/img/armor.svg',
-        "description": "Module handles work with armors/runes/materials",
-        "price": "patreon",
-        html: "<p></p>"
-    },
-    {
         id: 27,
         title: 'PF2e Condition Converter',
         img: '/pf2e-wiki/img/gear.svg',
@@ -1371,14 +1363,6 @@ export const data = [
             "<img class='scale-04' src='/pf2e-wiki/module/stat/battle.png' alt=''></div></p>" +
             "<h3>Settings</h3>" +
             "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/stat/settings.png' alt=''></div></p>"
-    },
-    {
-        id: 29,
-        title: 'PF2e Additional automations',
-        img: '/pf2e-wiki/img/gear.svg',
-        "description": "Module adds specific automations like blind roll/flat checks",
-        "price": "patreon",
-        html: "<p></p>"
     },
     {
         id: 30,
