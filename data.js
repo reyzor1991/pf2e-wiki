@@ -1169,7 +1169,15 @@ export const data = [
         img: '/pf2e-wiki/img/skull.svg',
         "description": "Module for handling dying conditions",
         "price": "free",
-        html: "<p></p>"
+        html: "<p>Module for handling dying condition and related logic. Auto apply/delete dying/wounded/unconscious conditions</p>" +
+            "<p>Module has Macro for <a href=\"https://2e.aonprd.com/Rules.aspx?ID=382\">Heroic Recovery</a></p>" +
+            "<br/>" +
+            "<h3>Settings</h3>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/die/settings.png' alt=''></div></p>" +
+            "<br/>" +
+            "<h3>Errors</h3>" +
+            "<p>If you have issue with unconscious layer (status effect) run inc console to delete it and turn off setting</p>" +
+            "<p><pre><code>_token.actor.effects.find(a=>a.statuses.has('unconscious'))?.delete()</code></pre></p>"
     },
     {
         id: 11,
@@ -1209,7 +1217,27 @@ export const data = [
         img: '/pf2e-wiki/img/pentagram.svg',
         "description": "Module for improving work with Eidolons",
         "price": "free",
-        html: "<p></p>"
+        html: "<p>Module which sync hp handling logic between Summoner and Eidolon</p>" +
+            "<h3>Base steps</h3>" +
+            "<ol>" +
+            "<li>Turn on option in settings</li>" +
+            "<li>Create eidolon (need to use PF2e Companion Compendia or create actor with class eidolon)</li>" +
+            "<li>Choose actor(summoner)</li>" +
+            "<li>Target Eidolon of summoner</li>" +
+            "<li>Run macro \"Set HP of Summoner to Eidolon</li>" +
+            "</ol>" +
+            "<p>If you get error check slug of Eidolon class (Need to select 1 token of eidolon as target to set HP of summoner)</p>" +
+            "<p>If you get error check slug of Summoner class (Actor should be Summoner)</p>" +
+            "<br/>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/eid/ei1.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/eid/ei2.png' alt=''></div></p>" +
+            "<br/>" +
+            "<p>After it, macro create linked hp bar. Summoner take damage when eidolon get it Eidolon take damage when summoner get it</p>" +
+            "<br/>" +
+            "<h3>Settings</h3>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/eid/settings.png' alt=''></div></p>"+
+            "<br/>" +
+            "<h3>Errors</h3>" +
+            "<p>Check eidolon feats - sometimes feat provide item bonus to ac need to change type to untyped</p>"
     },
     {
         id: 16,
@@ -1217,7 +1245,17 @@ export const data = [
         img: '/pf2e-wiki/img/flip.svg',
         "description": "Module to flip token image",
         "price": "free",
-        html: "<p></p>"
+        html: "<p>Module for fast changing tokens</p>" +
+            "<h3>Configuration</h3>" +
+            "<p>Flip config provide logic of manual changing tokens</p>" +
+            "<p>Flip battle config provide logic of auto changing tokens when encounter start/end</p>" +
+            "<p><div class='flex'>" +
+            "<img class='scale-03' src='/pf2e-wiki/module/flip/c.png' alt=''>" +
+            "<img class='scale-03' src='/pf2e-wiki/module/flip/c1.png' alt=''>" +
+            "<img class='scale-03' src='/pf2e-wiki/module/flip/c2.png' alt=''>" +
+            "</div></p>"+
+            "<h3>Example</h3>" +
+            "<p><video width=\"400\" controls autoplay><source src='/pf2e-wiki/module/flip/example.mov' type=\"video/mp4\"></video></p>"
     },
     {
         id: 17,
@@ -1426,6 +1464,10 @@ export const data = [
         "description": "Module for improving work with afflictions.",
         "price": "patreon",
         html: "<p>Mode has hardcoded effects as afflictions</p>" +
-            "<p>Mode contains 90% of all aflictions, and handle logic of stage changing, roll damage, apply effects/conditions</p>"
+            "<p>Mode contains 90% of all aflictions, and handle logic of stage changing, roll damage, apply effects/conditions</p>" +
+            "<p><div class='flex'>" +
+            "<img class='scale-06' src='/pf2e-wiki/module/aff/st.png' alt=''>" +
+            "<img class='scale-06' src='/pf2e-wiki/module/aff/aff.png' alt=''>" +
+            "</div></p>"
     }
 ]
