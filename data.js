@@ -1441,6 +1441,7 @@ export const data = [
         img: '/pf2e-wiki/img/skull.svg',
         "description": "Module for improving work with afflictions.",
         "price": "patreon",
-        html: "<p></p>"
+        html: "<p>Mode has hardcoded effects as afflictions</p>" +
+            "<p>Mode contains 90% of all aflictions, and handle logic of stage changing, roll damage, apply effects/conditions</p>"
     }
 ]
