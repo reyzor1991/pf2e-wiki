@@ -576,6 +576,7 @@ const listOfFeatures = [
             "Ablative Armor Plating",
             "Aeon Stone",
             "Aeon Stone Resonance",
+            "Alchemist Goggles",
             "Alloy Orb",
             "Amphisbaena Spittle",
             "Ancestral Geometry",
@@ -1238,8 +1239,6 @@ export const data = [
             "<li>Possibility to activate suggested rules</li>" +
             "<li>Filter rules</li>" +
             "</ol>" +
-            "<br/>" +
-            "<br/>" +
             "<h3>Settings</h3>" +
             "<p><div class='flex'><img class='scale-06' src='/pf2e-wiki/module/v3/settings.png' alt=''></div></p>" +
             "<h3>Roll Settings Menu</h3>" +
@@ -1251,12 +1250,19 @@ export const data = [
             "<br/>" +
             "<h3>Incapacitation Roll Menu</h3>" +
             "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/v3/irm.png' alt=''></div></p>" +
+            "<ol><li>Setting for change logic of Incapacitation</li></ol>" +
             "<br/>" +
             "<h3>Combat Settings Menu</h3>" +
             "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/v3/csm.png' alt=''></div></p>" +
             "<br/>" +
             "<h3>Additional settings menu</h3>" +
             "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/v3/asm.png' alt=''></div></p>" +
+            "<p>Decrease Frightened feature covers logic like</p>" +
+            "<ol>" +
+            "<li>Bogeyman breath</li>" +
+            "<li>Dread runes</li>" +
+            "<li>Dwarven doughtiness</li>" +
+            "</ol>" +
             "<br/>" +
             "<br/>" +
             "<h3>List of features</h3>" +
@@ -1343,7 +1349,12 @@ export const data = [
         img: '/pf2e-wiki/img/gear.svg',
         "description": "Module for converting condition to effects",
         "price": "patreon",
-        html: "<p></p>"
+        html: "<p>Module for converting condition to effects: auto apply from any source</p>" +
+            "<p><div class='flex wrap'><img class='scale-04' src='/pf2e-wiki/module/cc/1.png' alt=''>" +
+            "<img class='scale-04' src='/pf2e-wiki/module/cc/2.png' alt=''>" +
+            "<img class='scale-04' src='/pf2e-wiki/module/cc/3.png' alt=''></div></p>" +
+            "<h3>Settings</h3>" +
+            "<p><div class='flex'><img class='scale-06' src='/pf2e-wiki/module/cc/settings.png' alt=''></div></p>"
     },
     {
         id: 28,
@@ -1351,7 +1362,15 @@ export const data = [
         img: '/pf2e-wiki/img/scroll.svg',
         "description": "Module for saving encounter/base statistics",
         "price": "patreon",
-        html: "<p></p>"
+        html: "<p>Module saves statistics of actions/encounters</p>" +
+            "<br/>" +
+            "<p>Module saves information to Journal, which has 3 section: Overall statistics, Non combat actions and encounters</p>" +
+            "<p><div class='flex wrap'><img class='scale-04' src='/pf2e-wiki/module/stat/journal.png' alt=''>" +
+            "<img class='scale-04' src='/pf2e-wiki/module/stat/over.png' alt=''>" +
+            "<img class='scale-04' src='/pf2e-wiki/module/stat/non.png' alt=''>" +
+            "<img class='scale-04' src='/pf2e-wiki/module/stat/battle.png' alt=''></div></p>" +
+            "<h3>Settings</h3>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/stat/settings.png' alt=''></div></p>"
     },
     {
         id: 29,
@@ -1367,7 +1386,15 @@ export const data = [
         img: '/pf2e-wiki/img/group.svg',
         "description": "Module for comfortable level up of character",
         "price": "patreon",
-        html: "<p></p>"
+        html: "<p>Module for comfortable level up of character</p>" +
+            "<h3>Create new character</h3>" +
+            "<p><div class='flex'><img class='scale-06' src='/pf2e-wiki/module/char/an.png' alt=''></div></p>" +
+            "<p><div class='flex'><img class='scale-06' src='/pf2e-wiki/module/char/an2.png' alt=''></div></p>" +
+            "<p><div class='flex'><img class='scale-06' src='/pf2e-wiki/module/char/back.png' alt=''></div></p>" +
+            "<p><div class='flex'><img class='scale-06' src='/pf2e-wiki/module/char/cl.png' alt=''></div></p>" +
+            "<p><div class='flex'><img class='scale-06' src='/pf2e-wiki/module/char/att.png' alt=''></div></p>" +
+            "<h3>Level up character<h3>" +
+            "<p><div class='flex'><img class='scale-06' src='/pf2e-wiki/module/char/lvlup.png' alt=''></div></p>"
     },
     {
         id: 31,
@@ -1390,6 +1417,9 @@ export const data = [
         "description": "Handling Animist class",
         "price": "free",
         html: "<p>Changing apparitions and click ghost btn to apply new spells/lores</p>" +
+            "<p>You could use command as macro to apply changes</p>" +
+            "<p><pre><code>game.modules.get(\"pf2e-animist\").macros.applyChanges(actor)</code></pre></p>" +
+            "<p></p>" +
             "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/animist/app.png' alt=''>" +
             "<img class='scale-03' src='/pf2e-wiki/module/animist/ic.png' alt=''></div></p>" +
             "<h3>Settings</h3>" +
