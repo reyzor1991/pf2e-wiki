@@ -1389,7 +1389,21 @@ export const data = [
         img: '/pf2e-wiki/img/gear.svg',
         "description": "Module handles work with armors/runes/materials",
         "price": "patreon",
-        html: "<p></p>"
+        html: "<p>Module handles logic related to specific items:</p>" +
+            "<ol>" +
+            "<li>taking damage by armor/shield/weapon</li>" +
+            "<li>attacks vs broken armor</li>" +
+            "<li>shadow rune</li>" +
+            "<li>handling adding materials to armor/weapon</li>" +
+            "<li>Add rune description to armor/weapon description (setting)</li>" +
+            "<li>Add item description to action description (setting)</li>" +
+            "</ol>" +
+            "<h3>Rune description</h3>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/item/1.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/item/2.png' alt=''></div></p>" +
+            "<h3>Action description</h3>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/item/3.png' alt=''></div></p>" +
+            "<h3>Settings</h3>" +
+            "<p><div class='flex'><img class='scale-06' src='/pf2e-wiki/module/item/settings.png' alt=''></div></p>"
     },
     {
         id: 27,
