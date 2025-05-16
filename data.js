@@ -1193,7 +1193,18 @@ export const data = [
         img: '/pf2e-wiki/img/group.svg',
         "description": "Module provide feature for handling Devian Feats",
         "price": "free",
-        html: "<p></p>"
+        html: "<p>Module provide feature for handling Devian Feats</p>" +
+            "<ol>" +
+            "<li>Flat roll for change Stage/Backlash</li>" +
+            "<li>Apply/Change related effect</li>" +
+            "</ol>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/gate/1.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/gate/2.png' alt=''></div></p>" +
+            "<br/>" +
+            "<h3>Instruction</h3>" +
+            "<ol>" +
+            "<li>Post Deviant Feat in Chat</li>" +
+            "<li>Roll damage with titan swing</li>" +
+            "</ol>"
     },
     {
         id: 13,
@@ -1234,7 +1245,7 @@ export const data = [
             "<p>After it, macro create linked hp bar. Summoner take damage when eidolon get it Eidolon take damage when summoner get it</p>" +
             "<br/>" +
             "<h3>Settings</h3>" +
-            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/eid/settings.png' alt=''></div></p>"+
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/eid/settings.png' alt=''></div></p>" +
             "<br/>" +
             "<h3>Errors</h3>" +
             "<p>Check eidolon feats - sometimes feat provide item bonus to ac need to change type to untyped</p>"
@@ -1253,7 +1264,7 @@ export const data = [
             "<img class='scale-03' src='/pf2e-wiki/module/flip/c.png' alt=''>" +
             "<img class='scale-03' src='/pf2e-wiki/module/flip/c1.png' alt=''>" +
             "<img class='scale-03' src='/pf2e-wiki/module/flip/c2.png' alt=''>" +
-            "</div></p>"+
+            "</div></p>" +
             "<h3>Example</h3>" +
             "<p><video width=\"400\" controls autoplay><source src='/pf2e-wiki/module/flip/example.mov' type=\"video/mp4\"></video></p>"
     },
