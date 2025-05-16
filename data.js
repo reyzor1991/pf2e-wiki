@@ -1220,7 +1220,14 @@ export const data = [
         img: '/pf2e-wiki/img/2d6.svg',
         "description": "Module for homebrew rule, apply effect when roll 1/20 on initiative",
         "price": "free",
-        html: "<p></p>"
+        html: "<p>Apply effect when roll natural 20 or 1 on initiative roll</p>" +
+            "<p>By default:</p>" +
+            "<ol>" +
+            "<li>20 is Quickened</li>" +
+            "<li>1 is Slow</li>" +
+            "</ol>" +
+            "<h3>Settings</h3>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/ini/settings.png' alt=''></div></p>"
     },
     {
         id: 15,
