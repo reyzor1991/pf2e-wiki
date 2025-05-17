@@ -1084,7 +1084,8 @@ export const data = [
             "<p>Show colored hexes (toggled btn) :</p>" +
             "<p>- Reconnoitered as green (default setting)</p>" +
             "<p>- Mapped as blue (default setting)</p>" +
-            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/king/set.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/king/def.png' alt=''></div></p>" +
+            "<p>- Claimed as red (default setting)</p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/king/set.png' alt=''></div></p>" +
             "<br>" +
             "<p><strong>Resources</strong></p>" +
             "<p>GM/PC views. PC see only resources with checkbox “Show Camps and Commodities to Players</p>" +
@@ -1095,7 +1096,9 @@ export const data = [
             "<br>" +
             "<p><strong>Prepare Campsite</strong></p>" +
             "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/king/camp.png' alt=''></div></p>" +
-            "<br>"
+            "<br/>" +
+            "<h3>Settings</h3>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/king/settings.png' alt=''></div></p>"
     },
     {
         id: 5,
@@ -1109,7 +1112,45 @@ export const data = [
             "<p><strong>Favorite weapon</strong></p>" +
             "<p>Set favorite weapons for macros - default weapon when run macros</p>" +
             "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/macro/fav.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/macro/fav-set.png' alt=''></div></p>" +
-            "<br>"
+            "<br>" +
+            "<h3>List of macros</h3>" +
+            "<ol>" +
+            "<li>Whirlwind Strike</li>" +
+            "<li>Pistolero's Challenge</li>" +
+            "<li>Certain Strike</li>" +
+            "<li>Disable/Enable NPC Vision</li>" +
+            "<li>Twin Takedown</li>" +
+            "<li>Paired Shots</li>" +
+            "<li>Root to Life</li>" +
+            "<li>Stab and Blast</li>" +
+            "<li>Two-Element Infusion</li>" +
+            "<li>Disguise self/Shapeshifting</li>" +
+            "<li>Link Ranger and Animal Companion</li>" +
+            "<li>Current hero points</li>" +
+            "<li>Scare to Death</li>" +
+            "<li>Doff party armor</li>" +
+            "<li>Aid</li>" +
+            "<li>Inspire Heroics / Fortissimo Composition</li>" +
+            "<li>Dazing Blow</li>" +
+            "<li>Sword and Pistol</li>" +
+            "<li>Double Slice</li>" +
+            "<li>Snagging Strike</li>" +
+            "<li>Exploration activities</li>" +
+            "<li>Counteract</li>" +
+            "<li>Show info about target effect/condition</li>" +
+            "<li>Slam down</li>" +
+            "<li>Twin Feint</li>" +
+            "<li>Fast counteract</li>" +
+            "<li>Target is Off-Guard</li>" +
+            "<li>Flurry of Blows</li>" +
+            "<li>Repair for party</li>" +
+            "<li>Hunted Shot</li>" +
+            "<li>Accidental Shot</li>" +
+            "<li>Overwhelming Combination</li>" +
+            "</ol>" +
+            "<br>" +
+            "<h3>Settings</h3>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/macro/settings.png' alt=''></div></p>"
     },
     {
         id: 6,
@@ -1161,7 +1202,8 @@ export const data = [
         img: '/pf2e-wiki/img/gear.svg',
         "description": "Small module to notify that actor can use reaction",
         "price": "free",
-        html: "<p></p>"
+        html: "<p>Module handles logic of checking reaction during active combat</p>" +
+            "<p>Module cover about 90 reactions</p>"
     },
     {
         id: 9,
@@ -1185,7 +1227,9 @@ export const data = [
         img: '/pf2e-wiki/img/trait.svg',
         "description": "Module add possibility to add missed modifications to attack/damage roll",
         "price": "free",
-        html: "<p></p>"
+        html: "<p>Module add possibility to add missed modificators to attack/damage roll</p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/wea/1.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/wea/2.png' alt=''></div></p>"
+
     },
     {
         id: 12,
@@ -1333,7 +1377,13 @@ export const data = [
         img: '/pf2e-wiki/img/scroll.svg',
         "description": "Module for handling Recall Knowledge logic",
         "price": "patreon",
-        html: "<p></p>"
+        html: "<p>Module has 2 Recall Knowledge Macro</p>" +
+            "<p>Block Recall Knowledge if failed last Recall Knowledge</p>" +
+            "<br/>" +
+            "<h3>Examples</h3>" +
+            "<p><iframe src=\"https://player.vimeo.com/video/962964211\" width=\"480\" height=\"360\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/rk/1.png' alt=''></div></p>"
+
     },
     {
         id: 19,
@@ -1341,7 +1391,17 @@ export const data = [
         img: '/pf2e-wiki/img/mountain.svg',
         "description": "Module adds new type of regions",
         "price": "patreon",
-        html: "<p></p>"
+        html: "<p>Modules add few types of terrain behavior</p>" +
+            "<ol>" +
+            "<li>Uneven Ground - Roll balance in Area</li>" +
+            "<li>Inclines - add Off-guard</li>" +
+            "<li>Hazardous Terrain - roll damage</li>" +
+            "<li>Attack Area - roll attack for specific action</li>" +
+            "</ol>" +
+            "<h3>Travel activities</h3>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/ter/1.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/ter/2.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/ter/3.png' alt=''></div></p>" +
+            "<h3>Colored drag ruler</h3>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/ter/4.png' alt=''></div></p>"
     },
     {
         id: 20,
@@ -1349,7 +1409,33 @@ export const data = [
         img: '/pf2e-wiki/img/target.svg',
         "description": "Module for improving work saving throws/applying damage",
         "price": "patreon",
-        html: "<p></p>"
+        html: "<p></p>" +
+            "<br/>" +
+            "<h3>Saving throw btns style</h3>" +
+            "<p>Standard btn style</p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/target/1.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/target/2.png' alt=''></div></p>" +
+            "<p>Minimalistic style</p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/target/3.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/target/4.png' alt=''></div></p>" +
+            "<p>Minimalistic style with outcome</p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/target/5.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/target/6.png' alt=''></div></p>" +
+            "<h3>Damage btns style</h3>" +
+            "<p>Standard btn style</p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/target/7.png' alt=''></div></p>" +
+            "<p>Standard btns and name is above</p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/target/8.png' alt=''></div></p>" +
+            "<p>Small btn style</p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/target/9.png' alt=''></div></p>" +
+            "<p>Small btns and name is above</p>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/target/10.png' alt=''></div></p>" +
+            "<h3>Swap origin/target buttons</h3>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/target/11.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/target/12.png' alt=''></div></p>" +
+            "<h3>Message about total damage for spells</h3>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/target/13.png' alt=''></div></p>" +
+            "<h3>Notify PCs when not hidden Actor use Action</h3>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/target/14.png' alt=''></div></p>" +
+            "<br/>" +
+            "<h3>Settings</h3>" +
+            "<p><div class='flex'><img class='scale-06' src='/pf2e-wiki/module/target/settings.png' alt=''></div></p>"
     },
     {
         id: 21,
@@ -1357,7 +1443,13 @@ export const data = [
         img: '/pf2e-wiki/img/gear.svg',
         "description": "",
         "price": "patreon",
-        html: "<p></p>"
+        html: "<p>Modules add few specific features</p>" +
+            "<ol>" +
+            "<li>Condition filter</li>" +
+            "<li>Default All players permission level of actor (setting)</li>" +
+            "<li>Handle No healing effect</li>" +
+            "<li>Reach distance</li>" +
+            "</ol>"
     },
     {
         id: 22,
@@ -1373,7 +1465,17 @@ export const data = [
         img: '/pf2e-wiki/img/monster.svg',
         "description": "Module improves creating of new monsters and transforming exists",
         "price": "patreon",
-        html: "<p></p>"
+        html: "<p>Module add possibility to create own monster and crete modified monsters</p>" +
+            "<br/>" +
+            "<h3>Create monster</h3>" +
+            "<p><iframe src=\"https://player.vimeo.com/video/996600154\" width=\"480\" height=\"360\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>" +
+            "<h3>Own roadmap</h3>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/mon/map.png' alt=''></div></p>" +
+            "<h3>Create hazard</h3>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/mon/h1.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/mon/h2.png' alt=''></div></p>" +
+            "<h3>Monster Transformation</h3>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/mon/m1.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/mon/m2.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/mon/m3.png' alt=''></div></p>" +
+            "<br/>"
     },
     {
         id: 24,
@@ -1381,7 +1483,11 @@ export const data = [
         img: '/pf2e-wiki/img/mountain.svg',
         "description": "Module for working with templates",
         "price": "patreon",
-        html: "<p></p>"
+        html: "<p>Apply effect from Spell Template to related actors in area</p>" +
+            "<p>Delete spell template when spell duration ends</p>" +
+            "<p>Select multiple targets</p>" +
+            "<p>Handing Auras: Setting option (Post Aura Action on start turn of Actor)</p>" +
+            "<p>Handing Detect magic: Need to turn on setting option</p>"
     },
     {
         id: 25,
@@ -1488,6 +1594,16 @@ export const data = [
         html: "<p>Module store new actor/items to specific folder if it's missed</p>" +
             "<h3>Settings</h3>" +
             "<p><div class='flex'><img class='scale-06' src='/pf2e-wiki/module/folder/settings.png' alt=''></div></p>"
+    },
+    {
+        id: 34,
+        title: 'Story Chat',
+        img: '/pf2e-wiki/img/message.svg',
+        "description": "",
+        "price": "patreon",
+        html: "<p>Module add possibility to see only actor related messages in chat</p>" +
+            "<h3>Examples</h3>" +
+            "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/story/2.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/story/1.png' alt=''></div></p>"
     },
     {
         id: 99,
