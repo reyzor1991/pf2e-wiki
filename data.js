@@ -1628,7 +1628,7 @@ export const data = [
             "<p>Target helper</p>"
     },
     {
-        id: 36,
+        id: 37,
         title: 'Window Hotbar',
         img: '/pf2e-wiki/img/gear.svg',
         "description": "",
