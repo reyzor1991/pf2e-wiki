@@ -1606,6 +1606,40 @@ export const data = [
             "<p><div class='flex'><img class='scale-03' src='/pf2e-wiki/module/story/2.png' alt=''><img class='scale-03' src='/pf2e-wiki/module/story/1.png' alt=''></div></p>"
     },
     {
+        id: 35,
+        title: 'Shadowdark Automation',
+        img: '/pf2e-wiki/img/gear.svg',
+        "description": "",
+        "price": "patreon",
+        html: "<p>Target helper</p>"+
+            "<p>Handling of Saving Throws</p>"
+    },
+    {
+        id: 36,
+        title: 'Delta Green Automation',
+        img: '/pf2e-wiki/img/gear.svg',
+        "description": "",
+        "price": "free",
+        html: "<p>Inline rolls</p>" +
+            "<p>Sanity process automation</p>" +
+            "<p>Small calendar</p>" +
+            "<p>New items (tested): action/effect</p>" +
+            "<p>Agent builder (prototype)</p>" +
+            "<p>Target helper</p>"
+    },
+    {
+        id: 36,
+        title: 'Window Hotbar',
+        img: '/pf2e-wiki/img/gear.svg',
+        "description": "",
+        "price": "patreon",
+        html: "<p>Possibility to add macros to cluster</p>" +
+            "<p>Saving position of cluster</p>" +
+            "<p>Renaming clusters</p>" +
+            "<p>Moving macros between cluster</p>" +
+            "<p>Deleting/Editing macros</p>"
+    },
+    {
         id: 99,
         title: 'Pseudo Afflictions',
         img: '/pf2e-wiki/img/skull.svg',
